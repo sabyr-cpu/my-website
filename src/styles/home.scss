@@ -1,0 +1,17 @@
+$header-height: 55px;
+.header {
+  height: $header-height;
+  width: 80%;
+  margin-left: 10%;
+
+  border-bottom: 3px solid #0B2027;
+  
+  line-height: $header-height;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+
+  display: flex;
+  justify-content: center;
+}

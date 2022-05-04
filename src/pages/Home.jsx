@@ -1,8 +1,12 @@
+import Page1 from '../components/Home/Page1';
+import '../styles/common.scss';
+import '../styles/home.scss';
+
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <Page1 />
+    </>
   );
 }
 
