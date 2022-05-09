@@ -5,7 +5,7 @@ function page1() {
     <>
       <div className="header">Sabyrzhan's personal website</div>
       <div className="center">
-        <div className="greeting"><AppearingText text="Hello and welcome" delay={1000} time={1000} /></div>
+        <div className="greeting"><AppearingText text="Hello and welcome" delay={1000} time={1000} cursor={true} /></div>
       </div>
     </>
   )

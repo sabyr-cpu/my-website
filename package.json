@@ -28,7 +28,14 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "quotes": [
+        "error",
+        "single"
+      ]
+    }
   },
   "browserslist": {
     "production": [
